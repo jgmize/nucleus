@@ -122,3 +122,6 @@ REST_FRAMEWORK = {
 
     'DEFAULT_FILTER_BACKENDS': ('rna.filters.TimestampedFilterBackend',)
 }
+
+# needed for request.is_secure to work with stackato
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PORT', '443')
