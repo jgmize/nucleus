@@ -134,6 +134,6 @@ ENGAGE_ROBOTS = False
 # RNA (Release Notes) Configuration
 RNA = {
     'BASE_URL': os.environ.get(
-        'RNA_BASE_URL', 'https://nucleus.paas.allizom.org/rna/'),
+        'RNA_BASE_URL', 'https://nucleus.mozilla.org/rna/'),
     'LEGACY_API': os.environ.get('RNA_LEGACY_API', False)
 }
